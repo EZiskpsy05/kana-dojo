@@ -309,5 +309,11 @@
   "backgroundColor": "oklch(17.0% 0.035 280.0 / 1)",
   "mainColor": "oklch(68.0% 0.175 30.0 / 1)",
   "secondaryColor": "oklch(78.0% 0.125 45.0 / 1)"
+  },
+  {
+    "id": "matcha-cream",
+    "backgroundColor": "oklch(92.0% 0.025 140.0 / 1)",
+    "mainColor": "oklch(55.0% 0.180 140.0 / 1)",
+    "secondaryColor": "oklch(70.0% 0.120 80.0 / 1)"
   }
 ]
