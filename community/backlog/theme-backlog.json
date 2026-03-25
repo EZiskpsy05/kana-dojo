@@ -446,8 +446,10 @@
     "backgroundColor": "oklch(96.0% 0.015 210.0 / 1)",
     "mainColor": "oklch(55.0% 0.185 200.0 / 1)",
     "secondaryColor": "oklch(60.0% 0.155 25.0 / 1)",
-    "issued": true,
-    "completed": false
+    "issued": false,
+    "completed": true,
+    "completedBy": "MarianaAa01",
+    "completedPR": 10163
   },
   {
     "id": "sumo-strength",
