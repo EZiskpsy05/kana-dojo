@@ -96,7 +96,7 @@ export default function ClassicSessionSummary({
         <div className='mb-8 flex flex-col gap-4 sm:mb-12 sm:gap-6 lg:mb-16'>
           <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4'>
             {/* Accuracy Hero - Col Span 2 */}
-            <div className='relative flex flex-col items-center justify-center rounded-3xl border-2 border-(--main-color)/20 bg-(--background-color) p-6 sm:col-span-2 sm:flex-row sm:gap-12 sm:p-10'>
+            <div className='relative flex flex-col items-center justify-center rounded-[2.5rem] border-2 border-(--main-color)/20 bg-(--background-color) p-6 sm:col-span-2 sm:flex-row sm:gap-12 sm:p-10'>
               <div className='relative flex aspect-square w-full max-w-36 flex-col items-center justify-center sm:max-w-44'>
                 <ResponsiveContainer width='100%' height='100%'>
                   <PieChart>
@@ -150,7 +150,7 @@ export default function ClassicSessionSummary({
             </div>
 
             {/* Top Stats - Individual Cards */}
-            <div className='flex flex-col justify-between rounded-3xl border-2 border-(--main-color)/20 bg-(--background-color) p-6 sm:p-8'>
+            <div className='flex flex-col justify-between rounded-[2.5rem] border-2 border-(--main-color)/20 bg-(--background-color) p-6 sm:p-8'>
               <div className='mb-auto flex items-center gap-2'>
                 <Timer className='h-5 w-5 text-(--main-color)' />
                 <span className='text-xs leading-none font-bold tracking-widest text-(--secondary-color) uppercase opacity-60'>
@@ -162,7 +162,7 @@ export default function ClassicSessionSummary({
               </div>
             </div>
 
-            <div className='flex flex-col justify-between rounded-3xl border-2 border-(--main-color)/20 bg-(--background-color) p-6 sm:p-8'>
+            <div className='flex flex-col justify-between rounded-[2.5rem] border-2 border-(--main-color)/20 bg-(--background-color) p-6 sm:p-8'>
               <div className='mb-auto flex items-center gap-2'>
                 <Star className='h-5 w-5 text-(--main-color)' />
                 <span className='text-xs leading-none font-bold tracking-widest text-(--secondary-color) uppercase opacity-60'>
@@ -177,7 +177,7 @@ export default function ClassicSessionSummary({
 
           {/* Secondary Stats Row */}
           <div className='grid grid-cols-2 gap-4 sm:grid-cols-4 sm:gap-6'>
-            <div className='flex flex-col rounded-2xl border-2 border-(--secondary-color)/10 bg-(--background-color) p-5 sm:p-6'>
+            <div className='flex flex-col rounded-[2rem] border-2 border-(--secondary-color)/10 bg-(--background-color) p-5 sm:p-6'>
               <div className='mb-2 flex items-center gap-2'>
                 <Trophy className='h-4 w-4 text-(--secondary-color) opacity-60' />
                   <span className='text-xs leading-none font-bold tracking-widest text-(--secondary-color) uppercase opacity-60'>
@@ -189,7 +189,7 @@ export default function ClassicSessionSummary({
               </div>
             </div>
 
-            <div className='flex flex-col rounded-2xl border-2 border-(--secondary-color)/10 bg-(--background-color) p-5 sm:p-6'>
+            <div className='flex flex-col rounded-[2rem] border-2 border-(--secondary-color)/10 bg-(--background-color) p-5 sm:p-6'>
               <div className='mb-2 flex items-center gap-2'>
                 <Zap className='h-4 w-4 text-(--secondary-color) opacity-60' />
                   <span className='text-xs leading-none font-bold tracking-widest text-(--secondary-color) uppercase opacity-60'>
@@ -201,7 +201,7 @@ export default function ClassicSessionSummary({
               </div>
             </div>
 
-            <div className='flex flex-col rounded-2xl border-2 border-(--secondary-color)/10 bg-(--background-color) p-5 sm:p-6'>
+            <div className='flex flex-col rounded-[2rem] border-2 border-(--secondary-color)/10 bg-(--background-color) p-5 sm:p-6'>
               <div className='mb-2 flex items-center gap-2'>
                 <Activity className='h-4 w-4 text-(--secondary-color) opacity-60' />
                   <span className='text-xs leading-none font-bold tracking-widest text-(--secondary-color) uppercase opacity-60'>
@@ -213,7 +213,7 @@ export default function ClassicSessionSummary({
               </div>
             </div>
 
-            <div className='flex flex-col rounded-2xl border-2 border-(--secondary-color)/10 bg-(--background-color) p-5 sm:p-6'>
+            <div className='flex flex-col rounded-[2rem] border-2 border-(--secondary-color)/10 bg-(--background-color) p-5 sm:p-6'>
               <div className='mb-2 flex items-center gap-2'>
                 <Zap className='h-4 w-4 text-(--secondary-color) opacity-60' />
                   <span className='text-xs leading-none font-bold tracking-widest text-(--secondary-color) uppercase opacity-60'>
